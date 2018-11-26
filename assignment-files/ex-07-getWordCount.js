@@ -24,23 +24,9 @@ function getWordCount(newStr) {
     }
     newObj[newStr[i]] = count;
   }
-  console.log(newObj);
+
   return newObj;
 }
-
-// `,' - . ? !  [ ] 
-
-
-
-
-
-// for (var j=0; j<text.length; j++){
-//   if(text[i] === text[j]){
-//   newObj[text[i]++];
-//   }
-// }
-// console.log(newObj);
-// return newObj;
 
 
 

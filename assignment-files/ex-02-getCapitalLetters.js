@@ -20,20 +20,13 @@ function getCapitalLetters(string) {
   for (var i = 0; i < srt.length; i++) {
     if (srt[i] === srt[i].toUpperCase()) {
       arrayMayusculas.push(srt[i]);
-
     }
-
   }
-
   return arrayMayusculas
-  //     for(var index=0; index<arrayMayusculas.length; index++){ 
-  //       var letters = arrayMayusculas.charAt(index);
-  //       }
-  //       return letters;
+
 }
 
-// for(var index=0; index<array.length; index++){ 
-//   var letters = array.charAt(index);
+
 
 
 

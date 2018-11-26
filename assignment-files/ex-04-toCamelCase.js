@@ -17,10 +17,10 @@ function toCamelCase(str) {
     str[i] = str[i][0].toUpperCase() + str[i].substr(1);
   }
 
-  var x = str.join("");
-  var y = x[0].toLowerCase() + x.substr(1);
+  var strJoin = str.join("");
+  var resultStrCame = strJoin[0].toLowerCase() + strJoin.substr(1);
 
-  return y;
+  return resultStrCame;
 
 }
 

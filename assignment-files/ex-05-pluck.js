@@ -20,7 +20,7 @@ function pluck(obj, key) {
 
     newArray.push(obj[i][key]);
   }
-  console.log(newArray);
+
   return newArray;
 
 }

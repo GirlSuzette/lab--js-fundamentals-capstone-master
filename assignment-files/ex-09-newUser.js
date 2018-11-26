@@ -34,7 +34,6 @@ function User(names, type) {
       return false
   }
 
-  console.log(newObj)
   return newObj
 
 }

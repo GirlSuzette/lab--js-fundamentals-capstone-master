@@ -40,7 +40,7 @@ function showStats(numbers, count) {
     newObj.countValuesInputIsLessThan = less
     newObj.inputArraySize = count.length;
   }
-  console.log(newObj);
+
   return newObj
 
 }
