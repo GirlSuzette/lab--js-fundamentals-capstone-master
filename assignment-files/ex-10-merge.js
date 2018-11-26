@@ -13,20 +13,27 @@
 
 // ++ YOUR CODE HERE
 
-function merge(obj1, obj2) {
+// function merge(obj1, obj2) {
 
-  for (var key in obj2) {
-    console.log(key)
+//   var obj = Object.assign(obj1, obj2);
+
+//   return obj
+
+// }
+
+function merge(obj1, obj2) {
+  var obj = {}
+
+  for (var key in obj1) {
+    obj[key] = obj1[key];
   }
 
+  for (var key in obj2) {
+    obj[key] = obj2[key];
+  }
 
-
+  return obj;
 }
-
-
-
-
-
 
 
 
